@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lillie Adamson — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo">LA</a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#code">Code</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <ul class="nav__mobile" id="mobileMenu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#code">Code</a></li>
+      <li><a href="#writing">Writing</a></li>
+      <li><a href="#design">Design</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="top">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Portfolio</p>
+      <h1 class="hero__name">Lillie Adamson</h1>
+      <p class="hero__tagline">Writer &middot; Developer &middot; Designer</p>
+      <div class="hero__cta">
+        <a href="#about" class="btn btn--primary">See My Work</a>
+        <a href="Resume/Lillie-Adamson_Resume_UA.pdf" target="_blank" class="btn btn--outline">View Resume</a>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <span></span>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">01 &mdash; About</span>
+        <h2 class="section__title">A little about me</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__bio">
+          <p>I'm a multidisciplinary creative with a BA in English literature from The University of British Columbia. I have experience in writing/editing, web development and visual design. My work sits at the intersection of storytelling, technology, and aesthetics — I care about making things that are both well-crafted and meaningful.</p>
+          <p>Whether I'm drafting a piece of writing, building a web tool, or composing a visual design, I bring the same attention to detail and intention to every project.</p>
+          <div class="about__skills">
+            <div class="skill-group">
+              <h4>Writing</h4>
+              <ul>
+                <li>Academic &amp; literary criticism</li>
+                <li>Creative &amp; narrative nonfiction</li>
+                <li>Memoir &amp; personal essay</li>
+                <li>Editing &amp; copywriting</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h4>Development</h4>
+              <ul>
+                <li>HTML / CSS / JavaScript</li>
+                <li>Python</li>
+                <li>GitHub Pages &amp; deployment</li>
+                <li>Data visualization</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h4>Design</h4>
+              <ul>
+                <li>Adobe Photoshop</li>
+                <li>Photo editing &amp; compositing</li>
+                <li>Visual layout &amp; typography</li>
+                <li>Digital collage</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CODE PROJECTS -->
+  <section class="section projects" id="code">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">02 &mdash; Development</span>
+        <h2 class="section__title">Code Projects</h2>
+      </div>
+      <div class="projects__grid">
+
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__icon">&#9679;</span>
+            <div class="project-card__tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Data</span>
+              <span class="tag">Civic Tech</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Trump Policy Tracker</h3>
+          <p class="project-card__desc">A live-updating web tool that tracks and categorizes executive actions, orders, and policy changes. Built for clarity and accessibility, letting users filter and search events as they happen.</p>
+          <a href="https://lillieadamson.github.io/trump-policy-tracker/" target="_blank" rel="noopener" class="project-card__link">View Project &rarr;</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__icon">&#9679;</span>
+            <div class="project-card__tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Data</span>
+              <span class="tag">Legal</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Canadian Case Tracker</h3>
+          <p class="project-card__desc">An interactive tracker for monitoring Canadian legal cases and proceedings. Designed for researchers and journalists who need clean, filterable access to complex case data.</p>
+          <a href="https://lillieadamson.github.io/canadian-case-tracker/" target="_blank" rel="noopener" class="project-card__link">View Project &rarr;</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__icon">&#9679;</span>
+            <div class="project-card__tags">
+              <span class="tag">Python</span>
+              <span class="tag">Automation</span>
+              <span class="tag">Web Scraping</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">Pinterest Board to PDF</h3>
+          <p class="project-card__desc">A utility that converts Pinterest boards into downloadable PDF documents — ideal for moodboards, research collections, and creative references. Built for real-world usability with a clean interface.</p>
+          <a href="https://lillieadamson.github.io/Pinterest-Board-To-PDF-Public/" target="_blank" rel="noopener" class="project-card__link">View Project &rarr;</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__top">
+            <span class="project-card__icon">&#9679;</span>
+            <div class="project-card__tags">
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">Digital Humanities</span>
+              <span class="tag">Curation</span>
+            </div>
+          </div>
+          <h3 class="project-card__title">ENGL 332 Online Exhibition</h3>
+          <p class="project-card__desc">A digital humanities exhibition created for an English course, presenting literary and cultural artifacts in a curated, accessible web format. Combines critical writing with thoughtful visual presentation.</p>
+          <a href="https://lillieadamson.github.io/ENGL-332_Online-Exhibition/" target="_blank" rel="noopener" class="project-card__link">View Project &rarr;</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WRITING -->
+  <section class="section writing" id="writing">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">03 &mdash; Writing</span>
+        <h2 class="section__title">Writing Samples</h2>
+        <p class="section__subtitle">A selection of work spanning literary criticism, creative nonfiction, and experimental prose.</p>
+      </div>
+      <div class="writing__grid">
+
+        <a href="Writing_samples/Slow Violence, Silent War: Spectatorship and Responsibility in Don DeLillo's Point Omega.pdf" target="_blank" class="writing-card">
+          <div class="writing-card__type">Academic Essay</div>
+          <h3 class="writing-card__title">Slow Violence, Silent War</h3>
+          <p class="writing-card__sub">Spectatorship and Responsibility in Don DeLillo's <em>Point Omega</em></p>
+          <p class="writing-card__desc">A critical analysis examining how DeLillo uses the concept of "slow violence" to implicate the spectator in systems of war and media consumption.</p>
+          <span class="writing-card__cta">Read PDF &rarr;</span>
+        </a>
+
+        <a href="Writing_samples/Monkey-Beach-Food-Essay.pdf" target="_blank" class="writing-card">
+          <div class="writing-card__type">Literary Essay</div>
+          <h3 class="writing-card__title">Food, Land, and Identity</h3>
+          <p class="writing-card__sub">An essay on Eden Robinson's <em>Monkey Beach</em></p>
+          <p class="writing-card__desc">Explores how food functions as a site of cultural memory, grief, and Indigenous identity in Robinson's novel.</p>
+          <span class="writing-card__cta">Read PDF &rarr;</span>
+        </a>
+
+        <a href="Writing_samples/The-Coming-Race-Essay.pdf" target="_blank" class="writing-card">
+          <div class="writing-card__type">Literary Essay</div>
+          <h3 class="writing-card__title">The Coming Race Essay</h3>
+          <p class="writing-card__sub">Analysis of Bulwer-Lytton's utopian fiction</p>
+          <p class="writing-card__desc">A close reading of <em>The Coming Race</em> as a Victorian anxiety text, examining its tensions around gender, power, and technological progress.</p>
+          <span class="writing-card__cta">Read PDF &rarr;</span>
+        </a>
+
+        <a href="Writing_samples/Micro-Memoir.pdf" target="_blank" class="writing-card">
+          <div class="writing-card__type">Creative Nonfiction</div>
+          <h3 class="writing-card__title">Micro-Memoir</h3>
+          <p class="writing-card__sub">Personal nonfiction</p>
+          <p class="writing-card__desc">A compressed memoir piece exploring memory and experience through precise, lyrical prose.</p>
+          <span class="writing-card__cta">Read PDF &rarr;</span>
+        </a>
+
+        <a href="Writing_samples/15-Dogs-Creative-Rewrite.pdf" target="_blank" class="writing-card">
+          <div class="writing-card__type">Creative Writing</div>
+          <h3 class="writing-card__title">15 Dogs — Creative Rewrite</h3>
+          <p class="writing-card__sub">Adaptation &amp; reinterpretation</p>
+          <p class="writing-card__desc">A creative rewriting assignment responding to André Alexis's <em>Fifteen Dogs</em>, demonstrating voice, style, and narrative craft.</p>
+          <span class="writing-card__cta">Read PDF &rarr;</span>
+        </a>
+
+        <a href="Writing_samples/The-Siphon_Book-Sample.pdf" target="_blank" class="writing-card">
+          <div class="writing-card__type">Long-Form Fiction</div>
+          <h3 class="writing-card__title">The Siphon — Book Sample</h3>
+          <p class="writing-card__sub">Original fiction excerpt</p>
+          <p class="writing-card__desc">An excerpt from original longer-form fiction work, showcasing narrative development, voice, and worldbuilding.</p>
+          <span class="writing-card__cta">Read PDF &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DESIGN -->
+  <section class="section design" id="design">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">04 &mdash; Design</span>
+        <h2 class="section__title">Visual Work</h2>
+        <p class="section__subtitle">Photoshop and digital design samples. More coming soon.</p>
+      </div>
+      <div class="design__grid">
+        <div class="design-card">
+          <div class="design-card__img-wrap">
+            <img
+              src="Photoshop_examples/FInal_Collage.png"
+              alt="Photoshop digital collage by Lillie Adamson"
+              class="design-card__img"
+              loading="lazy"
+            />
+          </div>
+          <div class="design-card__info">
+            <div class="design-card__type">Digital Collage</div>
+            <h3 class="design-card__title">Collage Composition</h3>
+            <p class="design-card__desc">A high-resolution digital collage created in Adobe Photoshop, demonstrating compositing, layering, color work, and visual storytelling.</p>
+          </div>
+        </div>
+      </div>
+      <p class="design__more">More design work coming soon.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container container--narrow">
+      <div class="section__header section__header--center">
+        <span class="section__label">05 &mdash; Contact</span>
+        <h2 class="section__title">Get in Touch</h2>
+        <p class="section__subtitle">Available for writing, editing, development, and design work.</p>
+      </div>
+      <div class="contact__actions">
+        <a href="Resume/Lillie-Adamson_Resume_UA.pdf" target="_blank" class="btn btn--primary">Download Resume</a>
+        <a href="https://github.com/lillieadamson" target="_blank" rel="noopener" class="btn btn--outline">GitHub Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">&copy; 2026 Lillie Adamson. Built by hand.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
