@@ -2,8 +2,6 @@
 
 Personal portfolio website showcasing writing, development, and design work.
 
-**Live site:** [lillieadamson.github.io](https://lillieadamson.github.io)
-
 ## Structure
 
 ```
