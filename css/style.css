@@ -195,6 +195,17 @@ ul { list-style: none; }
   max-width: 700px;
 }
 
+.hero__headshot {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 40px;
+  opacity: 0;
+  animation: fadeUp .6s .05s forwards;
+  box-shadow: 0 4px 24px rgba(0,0,0,.10);
+}
+
 .hero__eyebrow {
   font-family: var(--font-sans);
   font-size: .75rem;
